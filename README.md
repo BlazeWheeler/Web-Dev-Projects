@@ -52,7 +52,7 @@ Give youtubeConvertMp3 a try today and start enjoying your favorite YouTube cont
 
 <br>
 
-![App Preview](Images/youtubeToMP3AppPreview.png)
+![App Preview](Images/youtubeToMP3AppPreview2.png)
 
 
 
