@@ -30,7 +30,7 @@
   <h3 align="center">youtubeConvertMP3</h3>
 
   <p align="center">
-   Popular UI examples in Swift!
+   A YouTube Video to MP3 Converter!
     <br />
     </div>
 
