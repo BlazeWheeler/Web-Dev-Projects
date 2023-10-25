@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="Preview/LinkTreeTemplateIcon" alt="Logo" width="80" height="80">
+    <img src="Preview/LinkTreeTemplateIcon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Link Tree Template</h3>
