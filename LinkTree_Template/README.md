@@ -13,7 +13,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="Preview/LinkTreeTemplateIcon">
+  <a href="Preview/LinkTreeTemplateIcon.png">
     <img src="Images/Icon.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -36,7 +36,7 @@
 Discover a whole new way to curate and present your online presence with our LinkTree Template. This dynamic and fully customizable platform lets you stylishly showcase your social media profiles. You're no longer restricted to traditional, one-dimensional link trees. With our user-friendly interface and straightforward code, personalization is a breeze. Change backgrounds, fonts, icons, and colors to truly reflect your individuality. The mesmerizing color-changing background adds an element of enchantment, from soothing gradients to vibrant transitions. Easily connect your various social profiles and platforms, from Instagram and TikTok to Twitter and YouTube. With open-source flexibility, you can make it entirely your own. Your digital identity, your way. Start building your unique hub today.
 
 
-![App Preview](Preview/LinkTreeTemplatePreview)
+![App Preview](Preview/LinkTreeTemplatePreview.png)
 
 
 
