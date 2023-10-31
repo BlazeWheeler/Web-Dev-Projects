@@ -1,0 +1,313 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 370px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 120px;
+    margin-right: 40px;
+    
+     
+}
+
+
+.logo img {
+    max-width: 70%;
+    height: auto;
+    margin-left: -33px;
+    margin-bottom: 5px;
+    
+    
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.logo { 
+    width: 450px; /* Set a fixed width for the image */
+  
+    margin-right: 100px; /* Adjust the margin as needed */
+    position: relative;
+    height: 25vh;
+    padding-left: 40px;
+   
+    
+}
+.logo-container h6 { 
+    margin:0;
+    font-size: 16px; /* Adjust the font size as needed */
+    font-size: 27px;
+    font-weight: lighter;
+    position: relative;
+    margin-right: 10px;
+    margin-top: -25px
+    
+    
+}
+
+/* Media query to hide the phone image below a specific screen size */
+@media (max-width: 945px) {
+   .logo { 
+    width: 400px; /* Set a fixed width for the image */
+    display: block;
+    margin-right: 20px; /* Adjust the margin as needed */
+    position: absolute;
+    margin-top: -450px; /* Adjust the margin as needed */
+   }
+   body { 
+    height: 70vh;
+   }
+
+   .logo-container h6 { 
+    margin:0;
+    text-align: center;
+    font-size: 14px; /* Adjust the font size as needed */
+    font-size: 25px;
+    font-weight: lighter;
+    position: relative;
+    margin-right: 10px;
+    
+    margin-top: -25px
+    
+   }
+   .logo img { 
+    max-width: 90%;
+    padding: 10px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200%;
+   }
+   .container{ 
+    margin-right: 0px;
+   }
+
+   @media (max-height: 700px) {
+    .body { 
+     overflow: hidden;
+    }
+ 
+    .footer {
+     height: 0;
+     overflow: hidden;
+     display: none;
+   
+     }
+ 
+     .logo{ 
+         display: non;
+     }
+ }
+   
+ @media (max-height: 400px) {
+    
+     .logo { 
+        display: none;
+
+     }
+    }
+   
+    
+
+}
+
+/* Media query to hide or cut off content when the screen height is smaller */
+@media (max-height: 600px) {
+   .body { 
+    overflow: hidden;
+   }
+
+   .footer {
+    height: 0;
+    overflow: hidden;
+    display: none;
+    }
+
+    .logo{ 
+        display: non;
+    }
+}
+
+
+
+
+.forgot-password a { 
+    
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: lighter;
+    font-size: 16px;
+    
+}
+form input {
+    width: 91%;
+    padding: 17px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+
+
+form button {
+    width: 101%;
+    padding: 12px;
+    font-size: 20px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.new-account-btn button { 
+    margin-top: -5px;
+    width: 60%;
+    padding: 12px;
+    font-size: 20px;
+    background-color: #42b72a;
+    
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.divider {
+    margin: 10px ;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+
+}
+
+
+.divider span {
+    margin: 0 10px;
+    color: #777;
+    font-weight: bold;
+}
+
+.footer_divider { 
+    margin: 100px ;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+    
+
+}
+
+.footer_divider span { 
+    margin: 0 10px;
+    color: #777;
+    font-weight: bold;
+}
+.footer_divider hr { 
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+a {
+    margin-top: 16px;
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: lighter;
+    
+    
+}
+
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+h6 { 
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #9a9999; /* Lighter grey text color */
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    height: auto;
+    max-height: 30.33vh;
+    min-height: 12.33vh;
+    
+    overflow: hidden;
+
+}
+
+.footer-attributes {
+    margin: 100px ;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 10px;
+    
+}
+
+.footer-attributes a {
+    color: #9a9999; /* Lighter grey text color */
+    margin: 0 10px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: normal; /* Less bold text */
+
+   
+}
+
+
+
+.footer-copyright {
+    font-size: 12px;
+    font-weight: normal; /* Less bold text */
+    justify-content: left;
+    overflow: hidden;
+}
+
+
+/* ... (any other existing CSS code) ... */
+
