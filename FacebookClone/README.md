@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="Preview/facebookCloneLogo.png" alt="Logo" width="80" height="80">
+    <img src="Preview/facbookCloneLogo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Facebook Login Clone</h3>
