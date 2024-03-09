@@ -1,0 +1,224 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+   
+}
+
+.snapchat-logo {
+    width: 60px;
+    height: auto;
+    margin-top: 10px; /* Adjust as needed for vertical alignment */
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 70px;
+    align-items: left;
+}
+
+.login-box {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 10 auto;
+}
+
+img {
+    margin-top: -5px;
+    width: 60px;
+    height: auto;
+    margin: -40px 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+input:focus {
+    outline: none;
+    border: 1px solid #0fadff; /* Change to your desired highlight color */
+    box-shadow: 0 0 3px rgba(0, 119, 181, 0.5); /* Add a box shadow for more emphasis */
+}
+
+
+button {
+    width: 30%;
+    padding: 12px;
+    background-color: #0fadff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.forgot-password {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #0077b5;
+}
+
+.signup-link {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: bold;
+}
+label {
+    display: block;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 12px;
+    color: #656b73;
+    margin-top: 10px;
+}
+
+
+.footer-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    font-size: 14px;
+    color: #9a9999; /* Lighter grey text color */
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    max-height: 40.33vh;
+    min-height: 195px;
+    overflow: hidden;
+}
+
+.footer-container a { 
+    
+    align-items: left;
+    color: #9a9999;
+    font-weight: 200;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 5px
+    
+   
+}
+
+
+
+
+.footer-container .footer-column {
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding-inline-end: 6.25%;
+}
+
+.footer-container .footer-column .footer-column-header {
+    font-weight: 500px;
+    padding-top: 10px;
+    box-sizing: content-box;
+    color: rgba(0,0,0,.87);
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 70px;
+
+}
+
+.footer_divider { 
+    margin: 100px ;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    overflow: hidden;
+
+}
+
+.footer_divider span { 
+    margin: 0 px;
+    color: white;
+    font-weight: 0px;
+}
+.footer_divider hr { 
+    flex: 1;
+    border: none;
+    border-top: 0px solid #ccc;
+}
+
+ .footer-bottom-bar {
+    width: 100%;
+    max-height: 20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer-container {
+    background-color: #fff;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer-bottom-bar a { 
+    text-align: left;
+    margin-left: 10px;
+    font-weight: lighter;
+    
+
+}
+.yellow-container {
+    width: 100%;
+
+    
+    padding: 2px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    top: 0;
+    
+  
+ 
+    
+}
+.yellow-container img { 
+    width: 40px;
+    align-items: center;
+    padding-left: 20px;
+    height: 10vh;
+   
+}
+
+@media screen and (max-width: 1350px)  {
+    .footer-container {
+      display: none;
+    }
+
+  }
